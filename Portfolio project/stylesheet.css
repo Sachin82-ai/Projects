@@ -1,0 +1,338 @@
+/* Global Styles */
+* {
+    color: white;
+    background-color: black;
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* Navbar */
+#navbar {
+    width: 100%;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    padding-top: 10px;
+    text-align: center;
+}
+#navbar a {
+    margin-right: 55px;
+    font-size: 25px;
+    transition: all 0.3s ease-in;
+}
+#navbar a:hover {
+    background-color: red;
+    color: white;
+}
+#navbar a:active {
+    color: pink;
+}
+
+/* Homepage */
+#homepage {
+    padding-bottom: 125px;
+}
+#homepage h1, #homepage h2, #homepage h3 {
+    margin-left: 200px;
+}
+#homepage h1 {
+    font-size: 90px;
+}
+#homepage h2 {
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+#homepage h3 {
+    margin-left: 100px;
+    font-size: 30px;
+    color: red;
+}
+#homepage button {
+    margin-left: 200px;
+    background: linear-gradient(45deg, #007BFF, #00C6FF); /* Gradient background */
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none; 
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease-in-out; 
+    cursor: pointer;
+}
+#homepage #btn1:hover {
+    background: linear-gradient(45deg, #0056b3, #0099cc); 
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+/* About Section */
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 220px;
+    height: 400px;
+}
+
+/* Intro Section */
+#intro {
+    height: 200px;
+    width: 200px;
+}
+#intro h2 {
+    font-size: 45px;
+}
+#intro h3 {
+    color: red;
+}
+#intro pre {
+    text-align: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#intro ol {
+    text-align: left;
+    font-weight: bold;
+}
+/* Enhanced Button Styling */
+#intro button {
+    margin-left: 200px;
+    background: linear-gradient(45deg, #007BFF, #00C6FF);
+    color: white;
+    height: 50px;
+    width: 170px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+#intro button:hover {
+    background: linear-gradient(45deg, #0056b3, #0099cc);
+    transform: scale(1.05); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); 
+}
+
+/* Language Section */
+#language h1 {
+    margin-left: 710px;
+    padding-bottom: 30px;
+}
+#language div {
+    border: 2px solid black;
+    display: inline-block;
+    margin-left: 150px;
+    padding-bottom: 80px;
+}
+
+/* Experience Section */
+#experience img {
+    height: 100px;
+    width: 100px;
+}
+#experience h1 {
+   
+    font-size: 60px;
+}
+#experience div {
+    border: 2px solid blue;
+    border-radius: 5px;
+    height: 500px;
+    width: 700px;
+   text-align: left;
+}
+#experience div img {
+    margin-left: 250px;
+}
+#experience div h4 {
+    margin-left: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: red;
+}
+#experience div ul {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+/* Skills Section */
+#skills {
+    padding-top: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 800px;
+   
+}
+#skills img {
+    height: 150px;
+    margin-left: 20px;
+}
+#skills div {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    height: 350px;
+    width: 800px;
+}
+#skills div b {
+    font-size: 30px;
+    margin-left: 20px;
+}
+#skills div p {
+    font-size: 20px;
+    margin-left: 20px;
+}
+#skills div:hover {
+    transform: scale(1.1);
+}
+
+/* Achievements Section */
+#achievements {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 20px; 
+}
+#achievements h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%; 
+}
+#achievements h2 {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 30px;
+    width: 100%; 
+}
+#achievements div {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    height: 450px; 
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+}
+#achievements div img {
+    height: 270px;
+    width: 340px;
+    margin-bottom: 10px;
+}
+#achievements div p {
+    color: red;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+#achievements div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Projects Section */
+#projects {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+#projects h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    width: 100%; }
+
+#projects h2 {
+    font-size: 40px;
+    color: red;
+    margin-bottom: 30px;
+    width: 100%; 
+}
+#projects div {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    height: 450px;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px; 
+    display: inline-block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+#projects div img {
+    height: 270px;
+    width: 340px;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+}
+#projects div p {
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#projects div h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    margin-top: 10px;
+}
+#projects div:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+/* Footer */
+#footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 50px 20px; 
+    text-align: center;
+    border-top: 2px solid #333;}
+    
+#footer h1 {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+#footer h2 {
+    color: #ff4d4d; 
+    font-size: 35px;
+    margin-bottom: 15px; 
+}
+#footer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.6; 
+}
+#footer button {
+    margin-top: 20px;
+    width: 180px;
+    height: 50px;
+    color: white;
+    background: linear-gradient(45deg, #ff4d4d, #ff1a1a);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; 
+}
+#footer button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(45deg, #ff1a1a, #b30000); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
