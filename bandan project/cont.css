@@ -1,0 +1,137 @@
+body{
+  background-color: #f0f0f0;
+}
+#navbar {
+    background-color: #333;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 1480px;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  #navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  #navbar a:hover {
+    color: #ff6347;
+  }
+#mai{
+    margin-top: 100px;
+}
+#k1{
+    display: flex;
+    flex-direction: row;
+}
+#ema{
+    margin-left: 540px;
+}
+#nam{
+    margin-left: 50px;
+}
+
+input[type="name"]{
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: rgb(249, 242, 242);
+    font: white;
+}
+input[type="email"]{
+    width: 200px;
+    height: 35px;
+    border-radius: 25px;
+    background-color: rgb(249, 242, 242);
+   
+}
+input[type="text"]{
+    width: 400px;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(249, 242, 242);
+}
+button{
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    background-color:rgb(61, 205, 249);
+}
+#icons {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+  
+  #i1,
+  #i2,
+  #i3 {
+    border: 0.5px solid black;
+    height: 250px;
+    width: 260px;
+    margin-left: 40px;
+    background-color: #fff;
+    text-align: center;
+  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  #j1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-weight: bold;
+    font-size: 25px;
+}
+  #foot {
+    display: flex;
+    flex-direction: row;
+  
+    margin-top: 100px;
+  }
+  
+  #f1 {
+    text-align: center;
+  
+    margin-left: 400px;
+    a {
+      text-decoration: none;
+    }
+  }
+  #f2 {
+    text-align: center;
+  
+    margin-left: 100px;
+    a {
+      text-decoration: none;
+    }
+  }
+  #f3 {
+    text-align: center;
+  
+    margin-left: 100px;
+    a {
+      text-decoration: none;
+    }
+  }
+  
+  #end {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+    

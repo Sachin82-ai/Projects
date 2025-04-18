@@ -1,0 +1,150 @@
+body{
+  background-color: #f0f0f0;
+}
+#navbar {
+    background-color: #333;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 1480px;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  #navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  #navbar a:hover {
+    color: #ff6347;
+  }
+#Registration{
+    margin-top: 100px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#top{
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: arial;
+    font-size: 20px;
+    
+}
+
+input{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 350px;
+    height: 28px;
+    margin-left: 80px;
+}
+select{
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    height: 28px;
+    width: 358px;
+    margin-left: 80px;
+}
+#line1{
+margin-left: 20px;
+}
+#line2{
+    margin-left: 20px;
+}
+#line3{
+    margin-left: 20px;
+}
+#line4{
+    margin-left: 20px;
+}
+    
+#line5{
+    margin-left: 470px;
+}
+#j1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-weight: bold;
+    font-size: 25px;
+}
+#m1{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 90px;
+    
+}
+#b1{
+    border-right: 2px solid black;
+padding-left: 300px;
+width: 200px;
+}
+#b2{
+    width: 200px;
+    border-right: 2px solid black;
+
+
+}
+#b3{
+    border-right: 2px solid black;
+    width: 200px;
+
+}
+
+#foot {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 100px;
+}
+
+#f1 {
+  text-align: center;
+
+  margin-left: 400px;
+  a {
+    text-decoration: none;
+  }
+}
+#f2 {
+  text-align: center;
+
+  margin-left: 100px;
+  a {
+    text-decoration: none;
+  }
+}
+#f3 {
+  text-align: center;
+
+  margin-left: 100px;
+  a {
+    text-decoration: none;
+  }
+}
+
+#end {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+  

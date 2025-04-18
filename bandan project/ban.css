@@ -1,0 +1,157 @@
+body {
+  background-color: #f0f0f0;
+  color: #333;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#navbar {
+  background-color: #333;
+  color: white;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 1480;
+  top: 0;
+  z-index: 1000;
+}
+
+#navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0 15px;
+  transition: color 0.3s;
+}
+
+#navbar a:hover {
+  color: #ff6347;
+}
+
+#body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#main {
+  height: 700px;
+  background-image: url("login-bg4.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login {
+  margin-top: 70px;
+  border: 2px solid black;
+  width: 280px;
+  height: 230px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-left: 800px;
+}
+
+#ll {
+  margin-left: 50px;
+  font-size: 20px;
+  color: red;
+}
+
+#input {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+#icons {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+}
+
+#i1,
+#i2,
+#i3 {
+  border: 0.5px solid black;
+  height: 250px;
+  width: 260px;
+  margin-left: 40px;
+  background-color: #fff;
+  text-align: center;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#matches {
+  text-align: center;
+  margin: 50px;
+}
+
+#matches h1 {
+  color: #333;
+}
+
+#matches h3 {
+  color: #666;
+}
+
+#bl1,
+#bl2 {
+  display: flex;
+  flex-direction: row;
+}
+#image1 {
+  margin-left: 250px;
+}
+#image2 {
+  margin-left: 100px;
+}
+#image3 {
+  margin-left: 250px;
+}
+#image4 {
+  margin-left: 100px;
+}
+
+#foot {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 100px;
+}
+
+#f1 {
+  text-align: center;
+
+  margin-left: 400px;
+  a {
+    text-decoration: none;
+  }
+}
+#f2 {
+  text-align: center;
+
+  margin-left: 100px;
+  a {
+    text-decoration: none;
+  }
+}
+#f3 {
+  text-align: center;
+
+  margin-left: 100px;
+  a {
+    text-decoration: none;
+  }
+}
+
+#end {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

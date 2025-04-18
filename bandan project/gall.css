@@ -1,0 +1,247 @@
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  #navbar {
+    background-color: #333;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 1480;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  #navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+  }
+  
+  #navbar a:hover {
+    color: #ff6347;
+  }
+  #ng{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    background-image: url(navgallery.jpg);
+    background-size: cover;
+  }
+  #sear{
+    margin-left: 600px;
+    height: 200px;
+   
+    input{
+      width: 240px;
+      height: 45px;
+      margin-top: 80px;
+    }
+  }
+  #but{
+    height: 45px;
+      margin-top: 80px;
+  }
+  #all{
+    display: flex;
+    flex-direction: row;
+    margin-left: 260px;
+    margin-top: 100px;
+  }
+  #b1 button {
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+    
+      width: 100px;
+      height: 40px;
+      border-radius: 50px;
+  }
+  
+  #b1 button:hover {
+    color: #ff6347;
+    
+  }
+  #b2 button {
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  
+  #b2 button:hover {
+    color: #ff6347;
+  }
+  #b3 button {
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  
+  #b3 button:hover {
+    color: #ff6347;
+  }
+  #b4 button {
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  
+  #b4 button:hover {
+    color: #ff6347;
+  }
+  #b5 button {
+    text-decoration: none;
+    padding: 0 15px;
+    transition: color 0.3s;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+  }
+  
+  #b5 button:hover {
+    color: #ff6347;
+  }
+  #b1{
+     
+     margin-left: 80px;
+  }
+  #b2{
+     
+    margin-left: 80px;
+ 
+ }
+ #b3{
+     
+  margin-left: 80px;
+ 
+}
+#b4{
+     
+  margin-left: 80px;
+ 
+}
+#b5{
+     
+  margin-left: 80px;
+ 
+}
+
+  #gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 80px;
+  }
+  #g1{
+    margin: 80px;
+
+  }
+  #g2{
+    margin: 80px;
+
+  }
+  #g3{
+    margin: 80px;
+
+  }
+  #g4{
+    margin: 80px;
+
+  }
+  #g5{
+    margin: 80px;
+
+  }
+  #g6{
+    margin: 80px;
+
+  }
+  #g7{
+    margin: 80px;
+
+  }
+  #g8{
+    margin: 80px;
+
+  }
+  #g9{
+    margin: 80px;
+
+  }
+  #g10{
+    margin: 80px;
+
+  }
+  #g11{
+    margin: 80px;
+
+  }
+  #g12{
+    margin: 80px;
+
+  }
+  #j1{
+    background-color: red;
+    color: white;
+    text-align: center;
+    height: 60px;
+    font-weight: bold;
+    font-size: 25px;
+}
+  #foot {
+    display: flex;
+    flex-direction: row;
+  
+    margin-top: 100px;
+  }
+  
+  #f1 {
+    text-align: center;
+  
+    margin-left: 400px;
+    a {
+      text-decoration: none;
+    }
+  }
+  #f2 {
+    text-align: center;
+  
+    margin-left: 100px;
+    a {
+      text-decoration: none;
+    }
+  }
+  #f3 {
+    text-align: center;
+  
+    margin-left: 100px;
+    a {
+      text-decoration: none;
+    }
+  }
+  
+  #end {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+    
